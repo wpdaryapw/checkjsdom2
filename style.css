@@ -1,0 +1,33 @@
+body{
+    background-color: #e0a3ef;
+}
+h1, h2{
+    text-align: center;
+    margin: 5px;
+    color: #dcf0f5;
+}
+h3{
+    margin: 10px;
+    color: #dcf0f5;
+}
+.picture{
+    width: 290px;
+    margin: 0 auto;
+}
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-item{
+    width: 320px;
+    min-height: 400px;
+    background-color: rgb(225, 65, 225);
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    flex-grow: 0;
+}
+
+.description-header{
+    cursor: pointer;
+}
